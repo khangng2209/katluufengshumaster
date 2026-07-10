@@ -1,0 +1,264 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "buildCommand": "node scripts/finalize-seo-origin.mjs",
+  "outputDirectory": "public",
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/api/framer-live?path=/"
+    },
+    {
+      "src": "^/404$",
+      "dest": "/api/framer-live?path=/404"
+    },
+    {
+      "src": "^/bach-tram-huong-trang$",
+      "dest": "/api/framer-live?path=/bach-tram-huong-trang"
+    },
+    {
+      "src": "^/blog$",
+      "dest": "/api/framer-live?path=/blog"
+    },
+    {
+      "src": "^/bni-effect-1-year-aniversary$",
+      "dest": "/api/framer-live?path=/bni-effect-1-year-aniversary"
+    },
+    {
+      "src": "^/bosuutap2026$",
+      "dest": "/api/framer-live?path=/bosuutap2026"
+    },
+    {
+      "src": "^/bot-phep-thanh-ba-ngoi$",
+      "dest": "/api/framer-live?path=/bot-phep-thanh-ba-ngoi"
+    },
+    {
+      "src": "^/bot-tram-bay-phep-tien$",
+      "dest": "/api/framer-live?path=/bot-tram-bay-phep-tien"
+    },
+    {
+      "src": "^/bot-xong-namarat$",
+      "dest": "/api/framer-live?path=/bot-xong-namarat"
+    },
+    {
+      "src": "^/chinh-sach-giam-gia$",
+      "dest": "/api/framer-live?path=/chinh-sach-giam-gia"
+    },
+    {
+      "src": "^/chon-ngay-gio-phong-thuy$",
+      "dest": "/api/framer-live?path=/chon-ngay-gio-phong-thuy"
+    },
+    {
+      "src": "^/chon-ngay-khai-truong-hop-tuoi-gia-chu-bi-quyet-mang-lai-may-man-va-thanh-cong$",
+      "dest": "/api/framer-live?path=/chon-ngay-khai-truong-hop-tuoi-gia-chu-bi-quyet-mang-lai-may-man-va-thanh-cong"
+    },
+    {
+      "src": "^/dich-vu$",
+      "dest": "/api/framer-live?path=/dich-vu"
+    },
+    {
+      "src": "^/dich-vu-ve-huyen-thuat$",
+      "dest": "/api/framer-live?path=/dich-vu-ve-huyen-thuat"
+    },
+    {
+      "src": "^/dien-tuong-phap-trong-tham-my$",
+      "dest": "/api/framer-live?path=/dien-tuong-phap-trong-tham-my"
+    },
+    {
+      "src": "^/dien-tuong-sinh-tai$",
+      "dest": "/api/framer-live?path=/dien-tuong-sinh-tai"
+    },
+    {
+      "src": "^/dien-tuong-sinh-tai-su-kien-khep-lai-hanh-trinh-khai-van-chi-moi-bat-dau$",
+      "dest": "/api/framer-live?path=/dien-tuong-sinh-tai-su-kien-khep-lai-hanh-trinh-khai-van-chi-moi-bat-dau"
+    },
+    {
+      "src": "^/doanh-nhan-kat-luu-giam-khao-manhunt-vietnam-2025$",
+      "dest": "/api/framer-live?path=/doanh-nhan-kat-luu-giam-khao-manhunt-vietnam-2025"
+    },
+    {
+      "src": "^/giai-ma-van-khi-2025$",
+      "dest": "/api/framer-live?path=/giai-ma-van-khi-2025"
+    },
+    {
+      "src": "^/giam-gia$",
+      "dest": "/api/framer-live?path=/giam-gia"
+    },
+    {
+      "src": "^/gioi-thieu$",
+      "dest": "/api/framer-live?path=/gioi-thieu"
+    },
+    {
+      "src": "^/han-thai-tue-la-gi-cach-hoa-giai-han-thai-tue-hieu-qua-nhat$",
+      "dest": "/api/framer-live?path=/han-thai-tue-la-gi-cach-hoa-giai-han-thai-tue-hieu-qua-nhat"
+    },
+    {
+      "src": "^/la-so-hon-nhan$",
+      "dest": "/api/framer-live?path=/la-so-hon-nhan"
+    },
+    {
+      "src": "^/la-so-menh-ly-tu-vi-bat-tu$",
+      "dest": "/api/framer-live?path=/la-so-menh-ly-tu-vi-bat-tu"
+    },
+    {
+      "src": "^/la-so-tu-vi-bat-tu-lam-sao-de-biet-duoc-so-menh-cua-minh-phan-1$",
+      "dest": "/api/framer-live?path=/la-so-tu-vi-bat-tu-lam-sao-de-biet-duoc-so-menh-cua-minh-phan-1"
+    },
+    {
+      "src": "^/la-so-tu-vi-bat-tu-lam-sao-de-biet-duoc-so-menh-cua-minh-phan-2$",
+      "dest": "/api/framer-live?path=/la-so-tu-vi-bat-tu-lam-sao-de-biet-duoc-so-menh-cua-minh-phan-2"
+    },
+    {
+      "src": "^/lam-dep-phong-thuy-bi-quyet-can-bang-nhan-sac-va-van-menh$",
+      "dest": "/api/framer-live?path=/lam-dep-phong-thuy-bi-quyet-can-bang-nhan-sac-va-van-menh"
+    },
+    {
+      "src": "^/long-menh-phung-tuong$",
+      "dest": "/api/framer-live?path=/long-menh-phung-tuong"
+    },
+    {
+      "src": "^/menh-ly-con-nguoi-chia-khoa-hieu-biet-ban-than-va-du-doan-van-menh$",
+      "dest": "/api/framer-live?path=/menh-ly-con-nguoi-chia-khoa-hieu-biet-ban-than-va-du-doan-van-menh"
+    },
+    {
+      "src": "^/moi-mong-sat-duyen$",
+      "dest": "/api/framer-live?path=/moi-mong-sat-duyen"
+    },
+    {
+      "src": "^/nen-luan-la-so-tu-vi-hay-bat-tu-so-sanh-diem-giong-va-khac$",
+      "dest": "/api/framer-live?path=/nen-luan-la-so-tu-vi-hay-bat-tu-so-sanh-diem-giong-va-khac"
+    },
+    {
+      "src": "^/nguyen-tac-phong-thuy-trong-thiet-ke-nha-cua$",
+      "dest": "/api/framer-live?path=/nguyen-tac-phong-thuy-trong-thiet-ke-nha-cua"
+    },
+    {
+      "src": "^/nhang-cay-upathoong-keo-khach$",
+      "dest": "/api/framer-live?path=/nhang-cay-upathoong-keo-khach"
+    },
+    {
+      "src": "^/nhang-cay-upathoong-keo-tai-loc-cuc-manh$",
+      "dest": "/api/framer-live?path=/nhang-cay-upathoong-keo-tai-loc-cuc-manh"
+    },
+    {
+      "src": "^/phong-thuy-am-trach-duong-trach$",
+      "dest": "/api/framer-live?path=/phong-thuy-am-trach-duong-trach"
+    },
+    {
+      "src": "^/phong-thuy-cho-doanh-nghiep$",
+      "dest": "/api/framer-live?path=/phong-thuy-cho-doanh-nghiep"
+    },
+    {
+      "src": "^/phong-thuy-nha-o-tu-tai-den-loc$",
+      "dest": "/api/framer-live?path=/phong-thuy-nha-o-tu-tai-den-loc"
+    },
+    {
+      "src": "^/phong-thuy-nha-o-van-phong$",
+      "dest": "/api/framer-live?path=/phong-thuy-nha-o-van-phong"
+    },
+    {
+      "src": "^/phong-thuy-phong-khach-bi-quyet-bo-tri-hop-ly-de-thu-hut-tai-loc$",
+      "dest": "/api/framer-live?path=/phong-thuy-phong-khach-bi-quyet-bo-tri-hop-ly-de-thu-hut-tai-loc"
+    },
+    {
+      "src": "^/que-mai-hoa-dich-so$",
+      "dest": "/api/framer-live?path=/que-mai-hoa-dich-so"
+    },
+    {
+      "src": "^/robots\\.txt$",
+      "dest": "/api/framer-live?path=/robots.txt"
+    },
+    {
+      "src": "^/san-pham-phong-thuy$",
+      "dest": "/api/framer-live?path=/san-pham-phong-thuy"
+    },
+    {
+      "src": "^/sim-cuu-tinh-thinh-vuong$",
+      "dest": "/api/framer-live?path=/sim-cuu-tinh-thinh-vuong"
+    },
+    {
+      "src": "^/sim-duoi-3-6-9-hop-menh-hoa-cach-chon-sim-chuan$",
+      "dest": "/api/framer-live?path=/sim-duoi-3-6-9-hop-menh-hoa-cach-chon-sim-chuan"
+    },
+    {
+      "src": "^/sitemap\\.xml$",
+      "dest": "/api/framer-live?path=/sitemap.xml"
+    },
+    {
+      "src": "^/su-kien-ca-chep-hoa-rong$",
+      "dest": "/api/framer-live?path=/su-kien-ca-chep-hoa-rong"
+    },
+    {
+      "src": "^/su-kien-workshop$",
+      "dest": "/api/framer-live?path=/su-kien-workshop"
+    },
+    {
+      "src": "^/tai-tan-tat-nhung-dieu-ban-can-biet-ve-kinh-dich-luc-hao$",
+      "dest": "/api/framer-live?path=/tai-tan-tat-nhung-dieu-ban-can-biet-ve-kinh-dich-luc-hao"
+    },
+    {
+      "src": "^/tham-my-hoai-van-chua-dep-xem-lai-tuong-so$",
+      "dest": "/api/framer-live?path=/tham-my-hoai-van-chua-dep-xem-lai-tuong-so"
+    },
+    {
+      "src": "^/thang-7-am-lich-mo-cua-am-gioi-chuan-bi-gi$",
+      "dest": "/api/framer-live?path=/thang-7-am-lich-mo-cua-am-gioi-chuan-bi-gi"
+    },
+    {
+      "src": "^/thang-hoa-van-menh-bi-phap-hoa-giai-van-han-da-chieu$",
+      "dest": "/api/framer-live?path=/thang-hoa-van-menh-bi-phap-hoa-giai-van-han-da-chieu"
+    },
+    {
+      "src": "^/tram-phep-suk-ta-wan-giai-tru-nang-luong-xau$",
+      "dest": "/api/framer-live?path=/tram-phep-suk-ta-wan-giai-tru-nang-luong-xau"
+    },
+    {
+      "src": "^/tram-phep-suk-ta-wan-goi-moi-quy-nhan$",
+      "dest": "/api/framer-live?path=/tram-phep-suk-ta-wan-goi-moi-quy-nhan"
+    },
+    {
+      "src": "^/tram-phep-suk-ta-wan-kich-hoat-may-man$",
+      "dest": "/api/framer-live?path=/tram-phep-suk-ta-wan-kich-hoat-may-man"
+    },
+    {
+      "src": "^/tram-phep-suk-ta-wan-kich-hoat-tai-loc$",
+      "dest": "/api/framer-live?path=/tram-phep-suk-ta-wan-kich-hoat-tai-loc"
+    },
+    {
+      "src": "^/tram-phep-suk-ta-wan-thanh-tay-bao-ve$",
+      "dest": "/api/framer-live?path=/tram-phep-suk-ta-wan-thanh-tay-bao-ve"
+    },
+    {
+      "src": "^/tuoi-ky-mui-1979-nam-2025-van-han-co-hoi-va-cach-hoa-giai$",
+      "dest": "/api/framer-live?path=/tuoi-ky-mui-1979-nam-2025-van-han-co-hoi-va-cach-hoa-giai"
+    },
+    {
+      "src": "^/tuoi-pham-tam-tai-2025-hieu-ro-va-cach-hoa-giai-hieu-qua$",
+      "dest": "/api/framer-live?path=/tuoi-pham-tam-tai-2025-hieu-ro-va-cach-hoa-giai-hieu-qua"
+    },
+    {
+      "src": "^/van-9-la-gi-bi-quyet-cai-tao-nha-o-don-tai-loc-vuong-khi-2024-2043$",
+      "dest": "/api/framer-live?path=/van-9-la-gi-bi-quyet-cai-tao-nha-o-don-tai-loc-vuong-khi-2024-2043"
+    },
+    {
+      "src": "^/vat-phong-thuy-cho-chu-shop-ban-dat$",
+      "dest": "/api/framer-live?path=/vat-phong-thuy-cho-chu-shop-ban-dat"
+    },
+    {
+      "src": "^/workshop-boi-bai-tay$",
+      "dest": "/api/framer-live?path=/workshop-boi-bai-tay"
+    },
+    {
+      "src": "^/workshop-dien-tuong-phap$",
+      "dest": "/api/framer-live?path=/workshop-dien-tuong-phap"
+    },
+    {
+      "src": "^/workshop-phep-boi-van-thu-su-loi-bo-tat$",
+      "dest": "/api/framer-live?path=/workshop-phep-boi-van-thu-su-loi-bo-tat"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[build]
+  command = "node scripts/finalize-seo-origin.mjs"
+  publish = "public"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"

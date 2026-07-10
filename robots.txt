@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://colorful-cake-647575.framer.app/sitemap.xml
